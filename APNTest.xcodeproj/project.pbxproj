@@ -21,6 +21,7 @@
 		00420025188CE93E00A7FEF8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00420007188CE93E00A7FEF8 /* UIKit.framework */; };
 		0042002D188CE93E00A7FEF8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0042002B188CE93E00A7FEF8 /* InfoPlist.strings */; };
 		0042002F188CE93E00A7FEF8 /* APNTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0042002E188CE93E00A7FEF8 /* APNTestTests.m */; };
+		0042003E188CF8F500A7FEF8 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0042003D188CF8F500A7FEF8 /* AudioToolbox.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		0042002A188CE93E00A7FEF8 /* APNTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "APNTestTests-Info.plist"; sourceTree = "<group>"; };
 		0042002C188CE93E00A7FEF8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0042002E188CE93E00A7FEF8 /* APNTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APNTestTests.m; sourceTree = "<group>"; };
+		0042003D188CF8F500A7FEF8 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0042003E188CF8F500A7FEF8 /* AudioToolbox.framework in Frameworks */,
 				00420006188CE93E00A7FEF8 /* CoreGraphics.framework in Frameworks */,
 				00420008188CE93E00A7FEF8 /* UIKit.framework in Frameworks */,
 				00420004188CE93E00A7FEF8 /* Foundation.framework in Frameworks */,
@@ -91,6 +94,7 @@
 		00420002188CE93E00A7FEF8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0042003D188CF8F500A7FEF8 /* AudioToolbox.framework */,
 				00420003188CE93E00A7FEF8 /* Foundation.framework */,
 				00420005188CE93E00A7FEF8 /* CoreGraphics.framework */,
 				00420007188CE93E00A7FEF8 /* UIKit.framework */,
